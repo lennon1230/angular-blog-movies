@@ -1,0 +1,4 @@
+Your API key is: 450ba793ed8349f4940f46339a43008e
+
+URL:
+https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=450ba793ed8349f4940f46339a43008e
