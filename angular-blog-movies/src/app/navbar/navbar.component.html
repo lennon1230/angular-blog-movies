@@ -1,0 +1,9 @@
+<nav class="navbar">
+    
+    <app-logo></app-logo>
+
+    <app-menu-button [ngStyle]="{'display': displayBtnMenu}" (click)="btnMenu()"></app-menu-button>
+
+    <app-menu [class.menubar]="isActive" (click)="btnClose()"></app-menu>
+    
+</nav>

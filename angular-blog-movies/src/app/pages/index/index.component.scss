@@ -1,0 +1,29 @@
+.index{
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1 1 100vw;
+
+    app-header-main, app-main, app-aside{
+        display:flex;
+        margin:3px;
+        //background-color: #a1a1a1;
+    }
+
+    app-header-main{
+        flex: 1 1 100vw;
+    }
+
+    app-main{
+        flex: 20 1 calc(60vw - 3px);
+    }
+    
+    app-aside{
+        flex: 1 1 calc(35vw - 3px);
+    }
+    
+    @media only screen and (max-width: 717px) {
+        app-main, app-aside{
+            flex: 1 1 100vw;
+        }
+    }
+}

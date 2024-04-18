@@ -1,0 +1,35 @@
+.navbar, app-logo, app-menu {
+    display: flex;
+}
+
+.navbar{
+    height: 15vh;
+    flex: 1 1 100vw;
+    margin: 3px;
+    box-shadow: 0 0 10px 0 black;
+
+    app-logo{
+        flex: 0 1 250px;
+    }
+
+    app-menu{
+        flex: 1 1 500px;
+    }
+
+    @media only screen and (max-width: 717px) {
+
+        app-menu-button{
+            display: flex;
+            margin-left: auto;
+            align-items: center;
+        }
+    
+        app-menu{
+            position: fixed;
+        }
+
+        .menubar{
+            display: none;
+        }
+    }
+}

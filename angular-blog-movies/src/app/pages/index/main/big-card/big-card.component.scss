@@ -1,0 +1,67 @@
+.big-card{
+    //box-shadow: 0 0 15px 0 black;
+    background-color: #fff;
+
+    a{
+        img{
+            width: 100%;
+            max-height: 350px;
+            box-shadow: 0 0 15px 0 black;
+        }
+    }
+
+    .card-body{
+        
+        margin-left: 1rem;
+        width: 100%;
+
+        a, p, span{
+            color: rgb(34, 34, 34);
+            padding: 0 1rem;
+        }
+
+        h3{
+            
+            margin-left: 1rem;
+            width: 100%;
+
+            a{
+                text-decoration: none;
+                font-size: larger;
+                padding: 0;
+                margin: 0;
+            }
+            a:hover{
+                text-decoration: underline rgb(0, 102, 255);
+            }
+        }
+        p{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        span{
+            font-size: 11px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        @media only screen and (max-width: 463px) {
+            h3{
+                a{
+                    font-size: large;
+                }
+            }
+        }
+    }
+    a{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: none;
+        border: none;
+        color: orangered;
+        margin: 1rem 2rem;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline rgb(0, 102, 255);
+    }
+}

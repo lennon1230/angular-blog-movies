@@ -1,0 +1,10 @@
+.app-root{
+    display: flex;
+    flex-wrap: wrap;
+	flex: 1 1 100vw;
+
+    app-navbar, app-index, app-footer {
+        display:flex;
+        flex: 1 1 100vw;
+    }
+}
